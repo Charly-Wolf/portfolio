@@ -1,34 +1,50 @@
 import { nanoid } from 'nanoid'
-import { FaHtml5, FaJs, FaReact } from 'react-icons/fa'
+import { FaHtml5, FaJs, FaReact, FaAngular } from 'react-icons/fa'
+import Icon from '@mdi/react'
+import { mdiLanguageTypescript } from '@mdi/js'
 import imgRandomUsersList from './assets/1 - Random user List.png'
 import imgMixMaster from './assets/01 - MixMaster.png'
 import imgUnsplash from './assets/02 - Unsplash.png'
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
-  { id: nanoid(), href: '#about', text: 'about' },
   { id: nanoid(), href: '#skills', text: 'skills' },
+  { id: nanoid(), href: '#about', text: 'about' },
   { id: nanoid(), href: '#projects', text: 'projects' },
 ]
 
 export const skills = [
   {
     id: nanoid(),
-    title: 'HTML&CSS',
-    icon: <FaHtml5 className='h-16 w-16 text-emerald-500' />,
-    text: 'Solid knowledge of HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.',
-  },
-  {
-    id: nanoid(),
-    title: 'Javascript',
-    icon: <FaJs className='h-16 w-16 text-emerald-500' />,
-    text: 'Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality',
-  },
-  {
-    id: nanoid(),
     title: 'React',
-    icon: <FaReact className='h-16 w-16 text-emerald-500' />,
-    text: 'Intermediate proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+    icon: <FaReact className='tech-icon text-cyan-400' />,
+    text: 'Intermediate proficiency, leveraging its component-based architecture, state management, JSX syntax, Hooks, React Router and other features.',
+  },
+  {
+    id: nanoid(),
+    title: 'Angular',
+    icon: <FaAngular className='tech-icon text-rose-600' />,
+    text: 'One year experience, employing its powerful directives, observables, routing and more to develop dynamic applications with clean code modularity.',
+  },
+  {
+    id: nanoid(),
+    title: 'JavaScript',
+    icon: <FaJs className='tech-icon text-yellow-400' />,
+    text: 'Expertise, adept at using its features such as asynchronous programming, oop principles and array methods to build interactive and dynamic web apps.',
+  },
+  {
+    id: nanoid(),
+    title: 'TypeScript',
+    icon: (
+      <Icon path={mdiLanguageTypescript} className='tech-icon text-sky-600' />
+    ),
+    text: 'Intermediate proficiency, taking advantage of its strong typing, interfaces and type inference for enhanced scalability, code integrity and maintainability.',
+  },
+  {
+    id: nanoid(),
+    title: 'HTML & CSS',
+    icon: <FaHtml5 className='tech-icon text-orange-500' />,
+    text: 'Solid knowledge, adeptly crafting visually appealing and responsive websites for optimal user experiences.',
   },
 ]
 

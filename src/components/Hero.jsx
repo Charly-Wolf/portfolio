@@ -1,4 +1,4 @@
-import heroImg from '../assets/hero.svg'
+import heroImg from '../assets/hero3.svg'
 import {
   FaGithubSquare,
   FaLinkedin,
@@ -12,7 +12,7 @@ const Hero = () => {
       <div className='align-element grid md:grid-cols-2 items-center gap-8'>
         <article>
           <h1 className='text-7xl font-bold tracking-wider'>
-            Hola! I&lsquo;m Charly
+            Hola! I&lsquo;m Charly 🐺
           </h1>
           <p className='mt-2 text-xl text-slate-100 tracking-wide'>
             a.k.a. Carlos
