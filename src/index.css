@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom classes */
+@layer components {
+  .align-element {
+    @apply mx-auto max-w-7xl px-8;
+  }
+
+  .social-icon {
+    @apply h-8 w-8 text-slate-700 hover:text-black duration-300;
+  }
+}

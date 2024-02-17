@@ -9,7 +9,7 @@ import {
 const Hero = () => {
   return (
     <div className='bg-teal-300 py-24'>
-      <div className='mx-auto max-w-7xl px-8 grid md:grid-cols-2 items-center gap-8'>
+      <div className='align-element grid md:grid-cols-2 items-center gap-8'>
         <article>
           <h1 className='text-7xl font-bold tracking-wider'>
             Hola! I&lsquo;m Charly
@@ -25,16 +25,16 @@ const Hero = () => {
           </p>
           <div className='flex gap-x-4 mt-4'>
             <a href='https://github.com/Charly-Wolf' target='_blank'>
-              <FaGithubSquare className='h-8 w-8 text-slate-700 hover:text-black duration-300' />
+              <FaGithubSquare className='social-icon' />
             </a>
             <a href='https://linkedin.com/in/carlosparedes90' target='_blank'>
-              <FaLinkedin className='h-8 w-8 text-slate-700 hover:text-black duration-300' />
+              <FaLinkedin className='social-icon' />
             </a>
             <a href='https://www.youtube.com/@charlyalemania' target='_blank'>
-              <FaYoutubeSquare className='h-8 w-8 text-slate-700 hover:text-black duration-300' />
+              <FaYoutubeSquare className='social-icon' />
             </a>
             <a href='https://www.instagram.com/quit_and_travel' target='_blank'>
-              <FaInstagramSquare className='h-8 w-8 text-slate-700 hover:text-black duration-300' />
+              <FaInstagramSquare className='social-icon' />
             </a>
           </div>
         </article>
