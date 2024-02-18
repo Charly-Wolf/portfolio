@@ -14,8 +14,10 @@ const Hero = () => {
           <h1 className='text-7xl font-bold tracking-wider'>
             Hola! I&lsquo;m Charly 🐺
           </h1>
-          <p className='mt-2 text-xl text-slate-100 tracking-wide'>
-            a.k.a. Carlos
+          <p className='real-name'>
+            <span>
+              a.k.a. Carlos
+            </span>
           </p>
           <p className='mt-4 text-3xl text-slate-800 capitalize tracking-wide'>
             Front-End Developer

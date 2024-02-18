@@ -8,6 +8,22 @@
     @apply mx-auto max-w-7xl px-8;
   }
 
+  .real-name {
+    @apply mt-5 text-xl text-slate-100 tracking-wide inline-block;
+  }
+
+  .real-name:hover {
+    @apply text-black duration-500;
+  }
+
+  .real-name span {
+    @apply bg-black px-4 py-1 rounded-3xl;
+  }
+
+  .real-name:hover span {
+    @apply bg-white duration-700;
+  }
+
   .social-icon {
     @apply h-8 w-8 text-slate-700 hover:text-black hover:scale-125 duration-300;
   }
