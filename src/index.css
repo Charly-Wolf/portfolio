@@ -51,4 +51,8 @@
   .bio p {
     @apply mb-4 text-slate-700 leading-loose;
   }
+
+  .input-field {
+    @apply border-2 py-1 px-2 rounded-xl border-black border-opacity-70
+  }
 }

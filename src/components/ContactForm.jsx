@@ -60,7 +60,7 @@ const ContactForm = () => {
               <div className='flex flex-col mb-4'>
                 <label htmlFor='name'>Name:</label>
                 <input
-                  className='border-2 py-1 px-2 border-black border-opacity-70'
+                  className='input-field'
                   type='text'
                   name='user_name'
                   value={name}
@@ -74,7 +74,7 @@ const ContactForm = () => {
               <div className='flex flex-col mb-4'>
                 <label htmlFor='email'>Email:</label>
                 <input
-                  className='border-2 py-1 px-2 border-black border-opacity-70'
+                  className='input-field'
                   type='email'
                   name='user_email'
                   value={email}
@@ -91,7 +91,7 @@ const ContactForm = () => {
               <div className='flex flex-col mb-8'>
                 <label htmlFor='message'>Message:</label>
                 <textarea
-                  className='h-28 border-2 py-1 px-2 border-black border-opacity-70'
+                  className='input-field max-h-48 min-h-28 h-28'
                   id='message'
                   name='message'
                   value={message}
@@ -110,7 +110,7 @@ const ContactForm = () => {
             <button
               type='submit'
               value='Send'
-              className='mt-4 px-20 py-2 bg-black text-white font-bold rounded-lg duration-300 hover:bg-teal-500'
+              className='mb-4 px-20 py-2 bg-black text-white font-bold rounded-lg duration-300 hover:bg-teal-500'
             >
               Send
             </button>
