@@ -60,7 +60,7 @@ const ContactForm = () => {
               <div className='flex flex-col mb-4'>
                 <label htmlFor='name'>Name:</label>
                 <input
-                  className='border-2 border-black border-opacity-70'
+                  className='border-2 py-1 px-2 border-black border-opacity-70'
                   type='text'
                   name='user_name'
                   value={name}
@@ -74,7 +74,7 @@ const ContactForm = () => {
               <div className='flex flex-col mb-4'>
                 <label htmlFor='email'>Email:</label>
                 <input
-                  className='border-2 border-black border-opacity-70'
+                  className='border-2 py-1 px-2 border-black border-opacity-70'
                   type='email'
                   name='user_email'
                   value={email}
@@ -91,7 +91,7 @@ const ContactForm = () => {
               <div className='flex flex-col mb-8'>
                 <label htmlFor='message'>Message:</label>
                 <textarea
-                  className='h-24 border-2 border-black border-opacity-70'
+                  className='h-28 border-2 py-1 px-2 border-black border-opacity-70'
                   id='message'
                   name='message'
                   value={message}

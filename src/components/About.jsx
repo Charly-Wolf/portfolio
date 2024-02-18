@@ -9,23 +9,23 @@ const About = () => {
         <article>
           <SectionTitle text={'about me 🧑🏻'} />
           <div className='bio'>
-            <p>😃 A passionate learner, that is who I am! 🧑🏻‍💻</p>
+            <p>🧑🏻‍💻 A passionate learner, that is who I am! </p>
             <p>
-              ➡️ After graduating from the University of Buenos aires, I worked
+              After graduating from the University of Buenos aires, I worked
               in Accounting and as a Tax Advisor. However, I then decided I
               wanted to change my career so I took a break to travel around
               Europe.
             </p>
             <p>
-              📖 While taking language courses and working in different cities,
+              While taking language courses and working in different cities,
               I learned how to code and discovered my new passion. In 2021 I
               enrolled in a 3 year vocational training program in Germany to
               become a Software Developer.
             </p>
             <p>
-              When I am not coding, you can find me playing my guitar 🎸, making
-              photos 📷 while traveling, hiking in the mountains ⛰️ or at some
-              language exchange meetup somewhere in the world 🌎.
+              When I am not coding, you can find me playing my guitar, making
+              photos while traveling, hiking in the mountains or at some
+              language exchange meetup somewhere in the world 🌏.
             </p>
           </div>
         </article>
