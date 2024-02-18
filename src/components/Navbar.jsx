@@ -7,7 +7,7 @@ const Navbar = () => {
         <h2 className='text-3xl font-bold'>
           Charly<span className='text-white'>Dev</span> 🧑🏻‍💻
         </h2>
-        <div className='flex gap-x-3 justify-center mt-2'>
+        <div className='flex gap-x-1 justify-center mt-2'>
           {links.map(link => {
             const { id, href, text } = link
             return (
