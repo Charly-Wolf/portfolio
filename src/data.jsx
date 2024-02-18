@@ -16,16 +16,17 @@ export const links = [
 export const skills = [
   {
     id: nanoid(),
-    title: 'React',
-    icon: <FaReact className='tech-icon text-cyan-400' />,
-    text: 'Intermediate proficiency, leveraging its component-based architecture, state management, JSX syntax, Hooks, React Router and other features.',
-  },
-  {
-    id: nanoid(),
     title: 'Angular',
     icon: <FaAngular className='tech-icon text-rose-600' />,
     text: 'One year experience, employing its powerful directives, observables, routing and more to develop dynamic applications with clean code modularity.',
   },
+  {
+    id: nanoid(),
+    title: 'React',
+    icon: <FaReact className='tech-icon text-cyan-400' />,
+    text: 'Intermediate proficiency, leveraging its component-based architecture, state management, JSX syntax, Hooks, React Router and other features.',
+  },
+
   {
     id: nanoid(),
     title: 'JavaScript',
