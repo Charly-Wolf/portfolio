@@ -11,10 +11,11 @@ const BackToTopBtn = () => {
 
     window.addEventListener('scroll', handleScroll)
 
-    // Cleanup function to remove the event listener
+// Cleanup function to remove the event listener
     return () => {
-      window.removeEventListener('scroll', handleScroll)
-    }
+      window.removeEventListener('scroll', handleScroll);
+    };
+
   }, [])
 
   const scrollUp = () => {

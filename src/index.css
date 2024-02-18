@@ -9,7 +9,7 @@
   }
 
   .social-icon {
-    @apply h-8 w-8 text-slate-700 hover:text-black duration-300;
+    @apply h-8 w-8 text-slate-700 hover:text-black hover:scale-125 duration-300;
   }
 
   .tech-icon {
@@ -18,5 +18,13 @@
 
   .back-to-top-btn {
     @apply fixed shadow-md shadow-neutral-400 bottom-7 right-7 rounded-full w-12 h-12 text-white font-bold text-2xl bg-teal-500 hover:bg-teal-200 hover:text-teal-800 duration-300;
+  }
+
+  .bio {
+    @apply mt-8;
+  }
+
+  .bio p {
+    @apply mb-4 text-slate-700 leading-loose;
   }
 }

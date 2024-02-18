@@ -1,3 +1,4 @@
+import About from './components/About'
 import BackToTopBtn from './components/BackToTopBtn'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
@@ -9,6 +10,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <Skills />
+      <About />
       <BackToTopBtn />
     </>
   )
