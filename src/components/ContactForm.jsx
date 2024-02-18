@@ -72,7 +72,7 @@ const ContactForm = () => {
               </div>
               {/* email */}
               <div className='flex flex-col mb-4'>
-                <label htmlFor='email'>Email</label>
+                <label htmlFor='email'>Email:</label>
                 <input
                   className='border-2 border-black border-opacity-70'
                   type='email'
