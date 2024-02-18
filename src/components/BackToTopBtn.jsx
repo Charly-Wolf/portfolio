@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import { useEffect } from 'react'
+import { useState, useEffect } from 'react'
+import { FaArrowCircleUp } from 'react-icons/fa'
 
 const BackToTopBtn = () => {
   const [showBtn, setShowBtn] = useState(false)
@@ -11,11 +11,10 @@ const BackToTopBtn = () => {
 
     window.addEventListener('scroll', handleScroll)
 
-// Cleanup function to remove the event listener
+    // Cleanup function to remove the event listener
     return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-
+      window.removeEventListener('scroll', handleScroll)
+    }
   }, [])
 
   const scrollUp = () => {
@@ -26,7 +25,7 @@ const BackToTopBtn = () => {
     <>
       {showBtn && (
         <button className='back-to-top-btn' onClick={scrollUp}>
-          ^
+          <FaArrowCircleUp />
         </button>
       )}
     </>

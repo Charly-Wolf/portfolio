@@ -4,24 +4,32 @@
 
 /* Custom classes */
 @layer components {
+  .section-btn {
+    @apply capitalize text-lg tracking-wide duration-300 rounded-2xl;
+  }
+
+  .section-btn:hover {
+    @apply text-white bg-black px-2;
+  }
+
   .align-element {
-    @apply mx-auto max-w-7xl px-8;
+    @apply mx-auto max-w-7xl px-10;
   }
 
   .real-name {
-    @apply mt-5 text-xl text-slate-100 tracking-wide inline-block;
+    @apply mt-5 text-xl text-slate-100 tracking-wide inline-block duration-500;
   }
 
   .real-name:hover {
-    @apply text-black duration-500;
+    @apply text-black;
   }
 
   .real-name span {
-    @apply bg-black px-4 py-1 rounded-3xl;
+    @apply bg-black px-4 py-1 rounded-3xl duration-700;
   }
 
   .real-name:hover span {
-    @apply bg-white duration-700;
+    @apply bg-white;
   }
 
   .social-icon {
@@ -33,7 +41,7 @@
   }
 
   .back-to-top-btn {
-    @apply fixed shadow-md shadow-neutral-400 bottom-7 right-7 rounded-full w-12 h-12 text-white font-bold text-2xl bg-teal-500 hover:bg-teal-200 hover:text-teal-800 duration-300;
+    @apply fixed shadow-md flex place-content-center items-center shadow-neutral-500 bottom-7 right-7 rounded-full w-10 h-10 text-white font-bold text-2xl bg-teal-500 hover:bg-teal-200 hover:text-teal-800 duration-300;
   }
 
   .bio {
