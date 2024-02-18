@@ -5,18 +5,20 @@ import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
+import { ToastContainer } from 'react-toastify'
 
 const App = () => {
   return (
-    <div>
+    <main>
+      <ToastContainer position='top-center' />
       <Navbar />
       <Hero />
       <Skills />
       <About />
       <Projects />
-      <ContactForm/>
+      <ContactForm />
       <BackToTopBtn />
-    </div>
+    </main>
   )
 }
 export default App
