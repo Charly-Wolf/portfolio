@@ -1,14 +1,17 @@
+/* eslint-disable react/prop-types */
 import { FaGithubSquare } from 'react-icons/fa'
 import { TbWorldWww } from 'react-icons/tb'
 
 const ProjectCard = ({ url, img, github, title, text }) => {
   return (
     <article className='bg-teal-50 rounded-lg shadow-md hover:shadow-xl duration-300'>
-      <img
-        src={img}
-        alt={title}
-        className='w-full object-cover rounded-t-lg h-64'
-      />
+      <a href={url}>
+        <img
+          src={img}
+          alt={title}
+          className='w-full object-cover rounded-t-lg h-64'
+        />
+      </a>
       <div className='p-8'>
         <h2 className='capitalize text-xl tracking-wide font-semibold'>
           {title}
