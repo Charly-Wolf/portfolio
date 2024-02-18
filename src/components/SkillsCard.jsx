@@ -1,8 +1,12 @@
 /* eslint-disable react/prop-types */
-const SkillsCard = ({ icon, title, text }) => {
+const SkillsCard = ({ icon, title, url, text }) => {
   return (
     <article>
-      <span className='flex justify-center md:justify-start'>{icon}</span>
+      <span className='flex justify-center md:justify-start'>
+        <a href={url} target='_blank'>
+          {icon}
+        </a>
+      </span>
       <h4 className='mt-6 font-bold flex justify-center md:justify-start'>
         {title}
       </h4>
