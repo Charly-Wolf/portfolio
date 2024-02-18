@@ -1,5 +1,6 @@
 import About from './components/About'
 import BackToTopBtn from './components/BackToTopBtn'
+import ContactForm from './components/ContactForm'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import Projects from './components/Projects'
@@ -13,6 +14,7 @@ const App = () => {
       <Skills />
       <About />
       <Projects />
+      <ContactForm/>
       <BackToTopBtn />
     </div>
   )

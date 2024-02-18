@@ -7,7 +7,7 @@ const About = () => {
       <div className='align-element grid md:grid-cols-2 items-center gap-16'>
         <img src={aboutSvg} alt='about-img' className='w-full h-64' />
         <article>
-          <SectionTitle text={'about me'} />
+          <SectionTitle text={'about me 🧑🏻'} />
           <div className='bio'>
             <p>😃 A passionate learner, that is who I am! 🧑🏻‍💻</p>
             <p>
