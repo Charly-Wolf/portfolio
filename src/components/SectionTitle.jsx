@@ -2,7 +2,9 @@
 const SectionTitle = ({ text }) => {
   return (
     <div className='border-b border-gray-200 pb-5'>
-      <h2 className='text-3xl font-medium tracking-wide capitalize'>{text}</h2>
+      <h2 className='text-3xl font-medium tracking-wide capitalize flex justify-center md:justify-start'>
+        {text}
+      </h2>
     </div>
   )
 }

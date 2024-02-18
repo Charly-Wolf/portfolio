@@ -7,14 +7,14 @@ import Skills from './components/Skills'
 
 const App = () => {
   return (
-    <>
+    <div>
       <Navbar />
       <Hero />
       <Skills />
       <About />
       <Projects />
       <BackToTopBtn />
-    </>
+    </div>
   )
 }
 export default App

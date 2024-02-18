@@ -5,11 +5,11 @@
 /* Custom classes */
 @layer components {
   .section-btn {
-    @apply capitalize text-lg tracking-wide duration-300 rounded-2xl;
+    @apply capitalize text-lg tracking-wide duration-300 rounded-2xl px-2;
   }
 
   .section-btn:hover {
-    @apply text-white bg-black px-2;
+    @apply text-white bg-black;
   }
 
   .align-element {

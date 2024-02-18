@@ -8,16 +8,14 @@ import {
 
 const Hero = () => {
   return (
-    <div className='bg-teal-300 py-24'>
-      <div className='align-element grid md:grid-cols-2 items-center gap-8'>
+    <div className='bg-teal-300 py-24 text-center md:text-left'>
+      <div className='align-element grid lg:grid-cols-2 items-center gap-8'>
         <article>
           <h1 className='text-7xl font-bold tracking-wider'>
             Hola! I&lsquo;m Charly 🐺
           </h1>
           <p className='real-name'>
-            <span>
-              a.k.a. Carlos
-            </span>
+            <span>a.k.a. Carlos</span>
           </p>
           <p className='mt-4 text-3xl text-slate-800 capitalize tracking-wide'>
             Front-End Developer
@@ -25,7 +23,7 @@ const Hero = () => {
           <p className='mt-2 text-lg text-slate-800 capitalize tracking-tighter-wide'>
             Building Beautifully Creative Web Experiences.
           </p>
-          <div className='flex gap-x-4 mt-4'>
+          <div className='flex gap-x-4 mt-4 justify-center md:justify-start'>
             <a href='https://github.com/Charly-Wolf' target='_blank'>
               <FaGithubSquare className='social-icon' />
             </a>
