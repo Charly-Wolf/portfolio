@@ -14,7 +14,7 @@ const Hero = () => {
       <div className='align-element grid lg:grid-cols-2 items-center gap-8'>
         <article>
           <h1 className='text-7xl font-bold tracking-wider'>
-            Hola! I&lsquo;m Charly 🐺
+            Hola! I&lsquo;m Charly
           </h1>
           <p className='real-name'>
             <span>a.k.a. Carlos</span>
