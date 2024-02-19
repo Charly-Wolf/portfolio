@@ -4,7 +4,7 @@ import { TbWorldWww } from 'react-icons/tb'
 
 const ProjectCard = ({ url, img, github, title, text }) => {
   return (
-    <article className='bg-teal-50 rounded-lg shadow-md border-solid border-opacity-55 border-2 border-teal-300 hover:shadow-xl hover:-translate-y-5 duration-300'>
+    <article className='bg-teal-50 rounded-lg shadow-md border-solid border-opacity-55 border-2 border-teal-300 hover:shadow-xl hover:-translate-y-4 duration-300'>
       <a href={url} target='_blank'>
         <img
           src={img}
