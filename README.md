@@ -2,4 +2,7 @@
 
 Visit my [Portfolio](https://charly-dev.com/)
 
-Made with React, JavaScript and Tailwind
+Responsive website made with React, JavaScript and Tailwind CSS.
+
+## 
+![Website Screenshot](./src/assets/Screenshot/screenshot-home.png)
