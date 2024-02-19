@@ -32,16 +32,12 @@
     @apply my-5 text-xl text-slate-100 tracking-wide inline-block duration-500;
   }
 
-  .real-name:hover {
-    @apply text-black;
-  }
-
   .real-name span {
-    @apply bg-black px-4 py-1 rounded-3xl duration-700;
+    @apply bg-black px-4 py-1 rounded-br-2xl rounded-tl-2xl duration-700;
   }
 
   .real-name:hover span {
-    @apply bg-white;
+    @apply bg-gradient-to-r from-blue-800 to-red-600 rounded-tr-2xl rounded-bl-2xl rounded-br-none rounded-tl-none;
   }
 
   .social-icon {
