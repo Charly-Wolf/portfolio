@@ -1,5 +1,4 @@
 import { links } from '../data'
-import siteLogo from '../assets/site-logo.png'
 
 const Navbar = () => {
   return (

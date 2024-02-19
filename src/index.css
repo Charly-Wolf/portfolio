@@ -5,11 +5,11 @@
 /* Custom classes */
 @layer components {
   .main-gradient {
-    @apply bg-gradient-to-br from-teal-50 via-teal-300 to-90% to-teal-500;
+    @apply bg-gradient-to-br from-teal-50 via-teal-200 to-90% to-teal-400;
   }
 
   .main-gradient-lighter {
-    @apply bg-gradient-to-br from-teal-50 via-teal-200 to-teal-300;
+    @apply bg-gradient-to-br from-teal-50 via-60% via-teal-200 to-teal-300;
   }
 
   .section-btn {
@@ -25,7 +25,7 @@
   }
 
   .real-name {
-    @apply mt-5 text-xl text-slate-100 tracking-wide inline-block duration-500;
+    @apply my-5 text-xl text-slate-100 tracking-wide inline-block duration-500;
   }
 
   .real-name:hover {

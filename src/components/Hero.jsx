@@ -13,19 +13,19 @@ const Hero = () => {
     <div className='main-gradient py-8 md:py-28 text-center md:text-left'>
       <div className='align-element grid lg:grid-cols-2 items-center gap-8'>
         <article>
-          <h1 className='text-7xl font-bold tracking-wider'>
+          <h1 className='text-7xl font-bold tracking-wider mb-2 '>
             Hola! I&lsquo;m Charly
           </h1>
           <p className='real-name'>
             <span>a.k.a. Carlos</span>
           </p>
-          <p className='mt-4 text-4xl text-slate-800 capitalize tracking-wide'>
+          <p className='mt-4 font-semibold text-4xl bg-gradient-to-r from-blue-800 md:via-40% md:to-60% via-red-600 to-violet-800 text-transparent bg-clip-text capitalize tracking-wide'>
             Front-End Developer
           </p>
           <p className='mt-2 text-2xl text-slate-800 capitalize tracking-tighter-wide'>
             Building Beautifully Creative Web Experiences
           </p>
-          <div className='flex gap-x-4 mt-4 justify-center md:justify-start'>
+          <div className='flex gap-x-4 mt-8 md:mt-14 justify-center md:justify-start'>
             <a href='https://github.com/Charly-Wolf' target='_blank'>
               <FaGithubSquare className='social-icon' />
             </a>
