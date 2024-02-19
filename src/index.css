@@ -8,6 +8,10 @@
     @apply bg-gradient-to-br from-teal-50 via-teal-300 to-90% to-teal-500;
   }
 
+  .main-gradient-lighter {
+    @apply bg-gradient-to-br from-teal-50 via-teal-200 to-teal-300;
+  }
+
   .section-btn {
     @apply capitalize text-lg tracking-wide duration-300 rounded-2xl px-1 md:px-2;
   }
@@ -45,7 +49,7 @@
   }
 
   .back-to-top-btn {
-    @apply fixed shadow-md flex place-content-center items-center shadow-neutral-500 bottom-7 right-7 rounded-full w-10 h-10 text-white font-bold text-2xl bg-teal-900  md:hover:bg-teal-200 md:hover:text-teal-900 duration-300;
+    @apply fixed shadow-md flex place-content-center items-center shadow-neutral-500 bottom-7 right-7 rounded-full w-10 h-10 text-white font-bold text-2xl bg-teal-900 md:hover:-translate-y-2  md:hover:bg-teal-200 md:hover:text-teal-900 duration-300;
   }
 
   .bio {

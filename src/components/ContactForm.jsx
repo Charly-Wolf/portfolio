@@ -46,7 +46,10 @@ const ContactForm = () => {
   }
 
   return (
-    <section className='py-20 main-gradient' id='contact'>
+    <section
+      className='py-20 bg-gradient-to-bl from-teal-50 via-55% via-slate-200 to-slate-500'
+      id='contact'
+    >
       <div className='align-element'>
         <SectionTitle text='Get in Touch 💬' />
         <form
@@ -119,7 +122,7 @@ const ContactForm = () => {
             <button
               type='submit'
               value='Send'
-              className='text-2xl mb-4 px-20 py-2 bg-slate-800 text-white font-bold shadow-md rounded-lg duration-300 md:hover:bg-slate-100 md:hover:text-black md:hover:shadow-xl'
+              className='text-2xl mb-4 px-20 py-2 bg-slate-800 text-white font-bold shadow-md rounded-lg duration-300 md:hover:-translate-y-1 md:hover:bg-slate-700  md:hover:shadow-xl'
             >
               Send
             </button>
