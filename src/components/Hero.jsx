@@ -23,7 +23,7 @@ const Hero = () => {
             Front-End Developer
           </p>
           <p className='mt-2 text-2xl text-slate-800 capitalize tracking-tighter-wide'>
-            Building Beautifully Creative Web Experiences.
+            Building Beautifully Creative Web Experiences
           </p>
           <div className='flex gap-x-4 mt-4 justify-center md:justify-start'>
             <a href='https://github.com/Charly-Wolf' target='_blank'>
