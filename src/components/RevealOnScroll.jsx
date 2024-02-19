@@ -3,7 +3,7 @@ import { useRef } from 'react'
 import { useEffect } from 'react'
 import { useState } from 'react'
 
-const RevealOnScroll = ({ children }) => {
+const RevealOnScroll = ({ children, onlyMobile= false }) => {
   const [isVisible, setIsVisible] = useState(false)
   const ref = useRef(null)
 
@@ -24,9 +24,9 @@ const RevealOnScroll = ({ children }) => {
     }
   }, [])
 
-  const classes = `transition-opacity duration-700 ${
+  const classes = `transition-opacity duration-500 ${
     isVisible ? 'opacity-100' : 'opacity-0'
-  }`
+  } ${onlyMobile && 'md:opacity-100'}`
 
   return (
     <div ref={ref} className={classes}>

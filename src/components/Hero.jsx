@@ -5,10 +5,12 @@ import {
   FaInstagramSquare,
   FaYoutubeSquare,
 } from 'react-icons/fa'
+import Skills from './Skills'
+import RevealOnScroll from './RevealOnScroll'
 
 const Hero = () => {
   return (
-    <div className='bg-teal-300 py-20 text-center md:text-left' style={{height: 'calc(100vh - 10rem)'}}>
+    <div className='main-gradient py-20 text-center md:text-left'>
       <div className='align-element grid lg:grid-cols-2 items-center gap-8'>
         <article>
           <h1 className='text-7xl font-bold tracking-wider'>
@@ -17,10 +19,10 @@ const Hero = () => {
           <p className='real-name'>
             <span>a.k.a. Carlos</span>
           </p>
-          <p className='mt-4 text-3xl text-slate-800 capitalize tracking-wide'>
+          <p className='mt-4 text-4xl text-slate-800 capitalize tracking-wide'>
             Front-End Developer
           </p>
-          <p className='mt-2 text-lg text-slate-800 capitalize tracking-tighter-wide'>
+          <p className='mt-2 text-2xl text-slate-800 capitalize tracking-tighter-wide'>
             Building Beautifully Creative Web Experiences.
           </p>
           <div className='flex gap-x-4 mt-4 justify-center md:justify-start'>
@@ -42,6 +44,9 @@ const Hero = () => {
           <img src={heroImg} alt='hero image' className='h-80 lg:h-96' />
         </article>
       </div>
+      <RevealOnScroll onlyMobile={true}>
+        <Skills />
+      </RevealOnScroll>
     </div>
   )
 }

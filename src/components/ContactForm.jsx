@@ -46,7 +46,7 @@ const ContactForm = () => {
   }
 
   return (
-    <section className='py-20 bg-teal-100' id='contact'>
+    <section className='py-20 main-gradient' id='contact'>
       <div className='align-element'>
         <SectionTitle text='Get in Touch 💬' />
         <form
@@ -58,7 +58,9 @@ const ContactForm = () => {
             <div className='col-span-1'>
               {/* name */}
               <div className='flex flex-col mb-4'>
-                <label htmlFor='name'>Name:</label>
+                <label className='mb-2 text-lg text-slate-800' htmlFor='name'>
+                  Name:
+                </label>
                 <input
                   className='input-field'
                   type='text'
@@ -71,8 +73,10 @@ const ContactForm = () => {
                 />
               </div>
               {/* email */}
-              <div className='flex flex-col mb-4'>
-                <label htmlFor='email'>Email:</label>
+              <div className='flex flex-col mb-4 '>
+                <label className='mb-2 text-lg text-slate-800' htmlFor='email'>
+                  Email:
+                </label>
                 <input
                   className='input-field'
                   type='email'
@@ -89,9 +93,14 @@ const ContactForm = () => {
             <div className='col-span-2 mb-2'>
               {/* message */}
               <div className='flex flex-col mb-8'>
-                <label htmlFor='message'>Message:</label>
+                <label
+                  className='mb-2 text-lg text-slate-800'
+                  htmlFor='message'
+                >
+                  Message:
+                </label>
                 <textarea
-                  className='input-field max-h-48 min-h-28 h-28'
+                  className='input-field max-h-48 min-h-32'
                   id='message'
                   name='message'
                   value={message}
@@ -110,7 +119,7 @@ const ContactForm = () => {
             <button
               type='submit'
               value='Send'
-              className='mb-4 px-20 py-2 bg-black text-white font-bold rounded-lg duration-300 hover:bg-teal-500'
+              className='text-2xl mb-4 px-20 py-2 bg-slate-800 text-white font-bold shadow-md rounded-lg duration-300 md:hover:bg-slate-100 md:hover:text-black md:hover:shadow-xl'
             >
               Send
             </button>

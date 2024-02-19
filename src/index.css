@@ -4,12 +4,16 @@
 
 /* Custom classes */
 @layer components {
+  .main-gradient {
+    @apply bg-gradient-to-br from-teal-50 via-teal-300 to-90% to-teal-500;
+  }
+
   .section-btn {
     @apply capitalize text-lg tracking-wide duration-300 rounded-2xl px-1 md:px-2;
   }
 
   .section-btn:hover {
-    @apply text-white bg-black md:px-3;
+    @apply md:text-white md:bg-black md:px-4;
   }
 
   .align-element {
@@ -41,11 +45,11 @@
   }
 
   .back-to-top-btn {
-    @apply fixed shadow-md flex place-content-center items-center shadow-neutral-500 bottom-7 right-7 rounded-full w-10 h-10 text-white font-bold text-2xl bg-teal-500 hover:bg-teal-200 hover:text-teal-800 duration-300;
+    @apply fixed shadow-md flex place-content-center items-center shadow-neutral-500 bottom-7 right-7 rounded-full w-10 h-10 text-white font-bold text-2xl bg-teal-900  md:hover:bg-teal-200 md:hover:text-teal-900 duration-300;
   }
 
   .bio {
-    @apply mt-8;
+    @apply mt-8 text-lg;
   }
 
   .bio p {
@@ -53,6 +57,6 @@
   }
 
   .input-field {
-    @apply border-2 py-1 px-2 rounded-xl border-black border-opacity-70
+    @apply border-2 py-1 px-2 rounded-xl border-black border-opacity-70;
   }
 }
