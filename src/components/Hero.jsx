@@ -8,7 +8,7 @@ import {
 
 const Hero = () => {
   return (
-    <div className='main-gradient py-8 md:py-28 2xl:big-hero-height text-center md:text-left'>
+    <div className='main-gradient py-14 md:py-28 2xl:big-hero-height text-center md:text-left'>
       <div className='align-element grid lg:grid-cols-2 items-center gap-8'>
         <article>
           <h1 className='text-7xl font-bold tracking-wider mb-2 '>
