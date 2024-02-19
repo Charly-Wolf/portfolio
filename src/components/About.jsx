@@ -13,9 +13,9 @@ const About = () => {
             className='hidden md:block w-full h-64'
           />
           <article>
-            <SectionTitle text={'about me 🧑🏻‍💻'} />
+            <SectionTitle text='Who am I? 🧑🏻‍💻' />
             <div className='bio'>
-              <p>A passionate learner, that is who I am! </p>
+              <p>A passionate learner! </p>
               <p>
                 After graduating from the University of Buenos aires, I worked
                 in Accounting and as a Tax Advisor. However, I then decided I
