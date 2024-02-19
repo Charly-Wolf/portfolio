@@ -12,6 +12,10 @@
     @apply bg-gradient-to-br from-teal-50 via-60% via-teal-200 to-teal-300;
   }
 
+  .gradient-bg {
+    @apply bg-gradient-to-r from-blue-800 md:via-40% md:to-60% via-red-600 to-violet-800 text-transparent bg-clip-text
+  }
+
   .section-btn {
     @apply capitalize text-lg tracking-wide duration-300 rounded-2xl px-1 md:px-2;
   }
