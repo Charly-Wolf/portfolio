@@ -10,7 +10,7 @@ const Skills = () => {
         {skills.map(skill => {
           return (
             <div key={skill.id}>
-              <div className='bg-slate-900 p-4 rounded-lg'>
+              <div className=' p-4 rounded-lg'>
                 <a href={skill.url} target='_blank'>
                   {skill.icon}
                 </a>
