@@ -3,7 +3,7 @@ import { skills } from '../data'
 const Skills = () => {
   return (
     <section
-      className='py-12 md:py-28 align-element flex justify-center md:block'
+      className='pb-14 align-element flex justify-center md:block'
       id='skills'
     >
       <div className='grid grid-cols-2 gap-5 w-52 md:w-auto md:flex md:justify-between md:flex-row '>

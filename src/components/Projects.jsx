@@ -2,6 +2,7 @@ import { projects } from '../data'
 import SectionTitle from './SectionTitle'
 import ProjectCard from './ProjectCard'
 import RevealOnScroll from './RevealOnScroll'
+import Skills from './Skills'
 
 const Projects = () => {
   return (
@@ -9,12 +10,15 @@ const Projects = () => {
       <RevealOnScroll>
         <section id='projects' className='py-20 align-element'>
           <SectionTitle text='Projects 💼' />
-          <div className='py-16 grid lg:grid-cols-2 xl:grid-cols-3 gap-14 md:gap-8'>
+          <div className='pt-16 grid lg:grid-cols-2 xl:grid-cols-3 gap-14 md:gap-8'>
             {projects.map(project => {
               return <ProjectCard key={project.id} {...project} />
             })}
           </div>
         </section>
+        <RevealOnScroll>
+          <Skills />
+        </RevealOnScroll>
       </RevealOnScroll>
     </div>
   )

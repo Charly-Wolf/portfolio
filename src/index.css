@@ -28,6 +28,10 @@
     @apply mx-auto max-w-7xl px-10;
   }
 
+  .big-hero-height {
+    height: calc(100vh - 6rem);
+  }
+
   .real-name {
     @apply my-5 text-xl text-slate-100 tracking-wide inline-block duration-500;
   }

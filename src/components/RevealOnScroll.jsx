@@ -12,7 +12,7 @@ const RevealOnScroll = ({ children, onlyMobile= false }) => {
       const element = ref.current
       if (element) {
         const { top } = element.getBoundingClientRect()
-        const isVisible = top < window.innerHeight - 200
+        const isVisible = top < window.innerHeight - 120
         setIsVisible(isVisible)
       }
     }

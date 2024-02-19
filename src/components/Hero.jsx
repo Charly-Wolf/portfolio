@@ -5,12 +5,10 @@ import {
   FaInstagramSquare,
   FaYoutubeSquare,
 } from 'react-icons/fa'
-import Skills from './Skills'
-import RevealOnScroll from './RevealOnScroll'
 
 const Hero = () => {
   return (
-    <div className='main-gradient py-8 md:py-28 text-center md:text-left'>
+    <div className='main-gradient py-8 md:py-28 2xl:big-hero-height text-center md:text-left'>
       <div className='align-element grid lg:grid-cols-2 items-center gap-8'>
         <article>
           <h1 className='text-7xl font-bold tracking-wider mb-2 '>
@@ -44,9 +42,6 @@ const Hero = () => {
           <img src={heroImg} alt='hero image' className='h-80 lg:h-96' />
         </article>
       </div>
-      <RevealOnScroll onlyMobile={true}>
-        <Skills />
-      </RevealOnScroll>
     </div>
   )
 }
