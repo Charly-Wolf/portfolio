@@ -13,7 +13,7 @@
   }
 
   .gradient-bg {
-    @apply bg-gradient-to-r from-blue-800 md:via-40% md:to-60% via-red-600 to-violet-800 text-transparent bg-clip-text
+    @apply bg-gradient-to-r from-blue-800 md:via-40% md:to-60% via-red-600 to-violet-800 text-transparent bg-clip-text;
   }
 
   .section-btn {
@@ -62,5 +62,17 @@
 
   .input-field {
     @apply border-2 py-1 px-2 rounded-xl border-black border-opacity-70;
+  }
+
+  .send-btn {
+    @apply text-2xl mb-4 px-20 py-2 bg-slate-800 text-white font-bold shadow-md rounded-lg  duration-300  ;
+  }
+
+  .send-btn:hover {
+    @apply md:bg-slate-700 md:shadow-xl md:-translate-y-2 transition-all ;
+  }
+
+  .send-btn:active {
+    @apply md:bg-slate-950 md:shadow-2xl md:-translate-y-1
   }
 }

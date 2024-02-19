@@ -19,7 +19,7 @@ const Hero = () => {
           <p className='real-name'>
             <span>a.k.a. Carlos</span>
           </p>
-          <p className='mt-4 text-4xl text-slate-800 md:gradient-bg capitalize tracking-wide'>
+          <p className='mt-4 text-4xl font-semibold text-slate-800 md:gradient-bg capitalize tracking-wide'>
             Front-End Developer
           </p>
           <p className='mt-2 text-2xl text-slate-800 capitalize tracking-tighter-wide'>

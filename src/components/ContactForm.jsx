@@ -122,7 +122,7 @@ const ContactForm = () => {
             <button
               type='submit'
               value='Send'
-              className='text-2xl mb-4 px-20 py-2 bg-slate-800 text-white font-bold shadow-md rounded-lg duration-300 md:hover:-translate-y-1 md:hover:bg-slate-700  md:hover:shadow-xl'
+              className='send-btn'
             >
               Send
             </button>
