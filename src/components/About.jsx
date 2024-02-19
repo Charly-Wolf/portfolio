@@ -26,7 +26,7 @@ const About = () => {
                 While taking language courses and working in different cities, I
                 learned how to code and discovered my new passion. In 2021 I
                 enrolled in a 3 year vocational training program in Germany to
-                become a Software Developer.
+                become a Software Developer. I will graduate in July 2024.
               </p>
               <p>
                 When I am not coding, you can find me playing my guitar, making
