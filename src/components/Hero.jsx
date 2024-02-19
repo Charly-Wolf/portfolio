@@ -10,7 +10,7 @@ import RevealOnScroll from './RevealOnScroll'
 
 const Hero = () => {
   return (
-    <div className='main-gradient py-20 text-center md:text-left'>
+    <div className='main-gradient py-8 md:py-28 text-center md:text-left'>
       <div className='align-element grid lg:grid-cols-2 items-center gap-8'>
         <article>
           <h1 className='text-7xl font-bold tracking-wider'>

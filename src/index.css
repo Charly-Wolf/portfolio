@@ -37,7 +37,7 @@
   }
 
   .social-icon {
-    @apply h-8 w-8 text-slate-700 hover:text-black hover:scale-125 duration-300;
+    @apply h-10 w-10 text-slate-700 hover:text-black hover:scale-125 duration-300;
   }
 
   .tech-icon {

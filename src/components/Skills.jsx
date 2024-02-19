@@ -6,10 +6,8 @@ const Skills = () => {
       className='py-12 md:py-28 align-element flex justify-center md:block'
       id='skills'
     >
-      {/* <SectionTitle text='tech stack 🛠️' /> */}
       <div className='grid grid-cols-2 gap-5 w-52 md:w-auto md:flex md:justify-between md:flex-row '>
         {skills.map(skill => {
-          // return <SkillsCard key={skill.id} {...skill} />
           return (
             <div key={skill.id}>
               <div className='bg-slate-900 p-4 rounded-lg'>
@@ -18,7 +16,7 @@ const Skills = () => {
                 </a>
               </div>
 
-              <h4 className='mt-4 font-bold text-center bg-slate-900 text-white p-1 rounded-lg'>
+              <h4 className='mt-1 mb-2 font-bold text-center bg-slate-900 text-white p-1 rounded-lg'>
                 {skill.title}
               </h4>
             </div>
