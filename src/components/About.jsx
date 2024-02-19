@@ -15,7 +15,7 @@ const About = () => {
           <article>
             <SectionTitle text='Who am I? 🧑🏻‍💻' />
             <div className='bio'>
-              <p>A passionate learner! </p>
+              <p className='text-2xl font-semibold'>A passionate learner! </p>
               <p>
                 After graduating from the University of Buenos aires, I worked
                 in Accounting and as a Tax Advisor. However, I then decided I
