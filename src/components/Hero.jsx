@@ -30,12 +30,12 @@ const Hero = () => {
             <a href='https://linkedin.com/in/carlosparedes90' target='_blank'>
               <FaLinkedin className='social-icon' />
             </a>
-            <a href='https://www.youtube.com/@charlyalemania' target='_blank'>
+            {/* <a href='https://www.youtube.com/@charlyalemania' target='_blank'>
               <FaYoutubeSquare className='social-icon' />
-            </a>
-            <a href='https://www.instagram.com/quit_and_travel' target='_blank'>
+            </a> */}
+            {/* <a href='https://www.instagram.com/quit_and_travel' target='_blank'>
               <FaInstagramSquare className='social-icon' />
-            </a>
+            </a> */}
           </div>
         </article>
         <article className='hidden md:block'>
