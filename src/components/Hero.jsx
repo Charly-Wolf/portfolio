@@ -12,10 +12,10 @@ const Hero = () => {
       <div className='align-element grid lg:grid-cols-2 items-center gap-8'>
         <article>
           <h1 className='text-7xl font-bold tracking-wider mb-2 '>
-            Hola! I&lsquo;m Charly
+            Hola! I&lsquo;m Carlos
           </h1>
           <p className='real-name'>
-            <span>a.k.a. Carlos</span>
+            <span>a.k.a. Charly</span>
           </p>
           <p className='mt-4 text-4xl font-semibold text-slate-800 md:gradient-bg capitalize tracking-wide'>
             Front-End Developer
