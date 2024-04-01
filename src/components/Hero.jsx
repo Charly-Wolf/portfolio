@@ -1,10 +1,5 @@
 import heroImg from '../assets/hero3.svg'
-import {
-  FaGithubSquare,
-  FaLinkedin,
-  FaInstagramSquare,
-  FaYoutubeSquare,
-} from 'react-icons/fa'
+import { FaGithubSquare, FaLinkedin } from 'react-icons/fa'
 
 const Hero = () => {
   return (
@@ -18,7 +13,7 @@ const Hero = () => {
             <span>a.k.a. Charly</span>
           </p>
           <p className='mt-4 text-4xl font-semibold text-slate-800 md:gradient-bg capitalize tracking-wide'>
-            Front-End Developer
+            Web Developer
           </p>
           <p className='mt-2 text-2xl text-slate-800 capitalize tracking-tighter-wide'>
             Building Beautifully Creative Web Experiences
