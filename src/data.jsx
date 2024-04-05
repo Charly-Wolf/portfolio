@@ -67,8 +67,8 @@ export const projects = [
     img: imgProductsAPI,
     url: 'https://products-react-redux-node.netlify.app/',
     github: 'https://github.com/Charly-Wolf/products-frontend',
-    title: 'Products API',
-    text: 'This is a Full Stack React / NodeJs app that displays a list of products, stored in a MongoDB database.',
+    title: 'Products MERN API',
+    text: 'This is a Full Stack MongoDB - Express - React - NodeJs app that displays a list of products.',
   },
   {
     id: nanoid(),
