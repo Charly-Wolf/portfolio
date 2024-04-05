@@ -68,7 +68,7 @@ export const projects = [
     url: 'https://products-react-redux-node.netlify.app/',
     github: 'https://github.com/Charly-Wolf/products-frontend',
     title: 'Products API',
-    text: 'This is a Full Stack React / NodeJs app tgat displays a list of products, stored in a MongoDB database.',
+    text: 'This is a Full Stack React / NodeJs app that displays a list of products, stored in a MongoDB database.',
   },
   {
     id: nanoid(),
