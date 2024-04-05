@@ -5,6 +5,7 @@ import { mdiLanguageTypescript, mdiTailwind } from '@mdi/js'
 import imgRandomUsersList from './assets/1 - Random user List.png'
 import imgMixMaster from './assets/01 - MixMaster.png'
 import imgUnsplash from './assets/02 - Unsplash.png'
+import imgProductsAPI from './assets/03 - ProductsAPI.png'
 
 export const links = [
   { id: nanoid(), href: '#projects', text: 'projects' },
@@ -61,6 +62,14 @@ export const skills = [
 ]
 
 export const projects = [
+  {
+    id: nanoid(),
+    img: imgProductsAPI,
+    url: 'https://products-react-redux-node.netlify.app/',
+    github: 'https://github.com/Charly-Wolf/products-frontend',
+    title: 'Products API',
+    text: 'This is a Full Stack React / NodeJs app tgat displays a list of products, stored in a MongoDB database.',
+  },
   {
     id: nanoid(),
     img: imgRandomUsersList,
