@@ -13,7 +13,7 @@ const Hero = () => {
             <span>a.k.a. Charly</span>
           </p>
           <p className='mt-4 text-4xl font-semibold text-slate-800 md:gradient-bg capitalize tracking-wide'>
-            Web Developer
+            Software Developer
           </p>
           <p className='mt-2 text-2xl text-slate-800 capitalize tracking-tighter-wide'>
             Building Beautifully Creative Web Experiences
