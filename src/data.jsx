@@ -69,7 +69,7 @@ export const projects = [
     url: 'https://mybooks-react.netlify.app/',
     github: 'https://github.com/Charly-Wolf/MyBooks',
     title: 'MyBooks',
-    text: 'UNDER CONSTRUCTION - This app lets user browse books and track which ones they are reading, already read or would love to read.',
+    text: 'UNDER CONSTRUCTION - This app enables users browse books and track which ones they are reading, already read or would love to read.',
   },
   {
     id: nanoid(),
