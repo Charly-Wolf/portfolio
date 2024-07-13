@@ -2,10 +2,11 @@ import { nanoid } from 'nanoid'
 import { FaHtml5, FaJs, FaReact, FaAngular } from 'react-icons/fa'
 import Icon from '@mdi/react'
 import { mdiLanguageTypescript, mdiTailwind } from '@mdi/js'
-import imgRandomUsersList from './assets/1 - Random user List.png'
-import imgMixMaster from './assets/01 - MixMaster.png'
-import imgUnsplash from './assets/02 - Unsplash.png'
+// import imgRandomUsersList from './assets/1 - Random user List.png'
+// import imgMixMaster from './assets/01 - MixMaster.png'
+// import imgUnsplash from './assets/02 - Unsplash.png'
 import imgProductsAPI from './assets/03 - ProductsAPI.png'
+import imgMyBooks from './assets/mybooks.png'
 
 export const links = [
   { id: nanoid(), href: '#projects', text: 'projects' },
@@ -64,34 +65,43 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
+    img: imgMyBooks,
+    url: 'https://mybooks-react.netlify.app/',
+    github: 'https://github.com/Charly-Wolf/MyBooks',
+    title: 'MyBooks',
+    text: 'UNDER CONSTRUCTION - This app lets user browse books and track which ones they are reading, already read or would love to read.',
+  },
+  {
+    id: nanoid(),
     img: imgProductsAPI,
     url: 'https://products-react-redux-node.netlify.app/',
     github: 'https://github.com/Charly-Wolf/products-frontend',
     title: 'Products MERN API',
     text: 'This is a Full Stack MongoDB - Express - React - NodeJs app that displays a list of products.',
   },
-  {
-    id: nanoid(),
-    img: imgRandomUsersList,
-    url: 'https://react-random-users-list.netlify.app/',
-    github: 'https://github.com/Charly-Wolf/random_users_list',
-    title: 'Random Users API',
-    text: 'This is React app fetches data from the Random User Generator API and displays it in a table format.',
-  },
-  {
-    id: nanoid(),
-    img: imgMixMaster,
-    url: 'https://mixmaster-react-router.netlify.app/',
-    github: 'https://github.com/Charly-Wolf/react-router-practice',
-    title: 'MixMaster - Cocktails DB API',
-    text: 'It displays different cocktails based on a desired ingredient and uses React Router to navigate throughout different pages.',
-  },
-  {
-    id: nanoid(),
-    img: imgUnsplash,
-    url: 'https://unsplash-react-search-engine.netlify.app/',
-    github: 'https://github.com/Charly-Wolf/react_practice_image_search_engine',
-    title: 'Unsplash API - Images Browser',
-    text: 'Thanks to the Unsplash API, the user can search for beautiful and creative images using keywords.',
-  },
+
+  // {
+  //   id: nanoid(),
+  //   img: imgRandomUsersList,
+  //   url: 'https://react-random-users-list.netlify.app/',
+  //   github: 'https://github.com/Charly-Wolf/random_users_list',
+  //   title: 'Random Users API',
+  //   text: 'This is React app fetches data from the Random User Generator API and displays it in a table format.',
+  // },
+  // {
+  //   id: nanoid(),
+  //   img: imgMixMaster,
+  //   url: 'https://mixmaster-react-router.netlify.app/',
+  //   github: 'https://github.com/Charly-Wolf/react-router-practice',
+  //   title: 'MixMaster - Cocktails DB API',
+  //   text: 'It displays different cocktails based on a desired ingredient and uses React Router to navigate throughout different pages.',
+  // },
+  // {
+  //   id: nanoid(),
+  //   img: imgUnsplash,
+  //   url: 'https://unsplash-react-search-engine.netlify.app/',
+  //   github: 'https://github.com/Charly-Wolf/react_practice_image_search_engine',
+  //   title: 'Unsplash API - Images Browser',
+  //   text: 'Thanks to the Unsplash API, the user can search for beautiful and creative images using keywords.',
+  // },
 ]
